@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "aws-direct-connect-monitor": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "CHANGE_ME_TO_YOUR_CLONE_PATH",
+        "run",
+        "aws-direct-connect-monitor"
+      ],
+      "env": {
+        "AWS_PROFILE": "certis-tgw-gto",
+        "AWS_REGION": "ap-southeast-1",
+        "DX_ACCOUNT_ID": "",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
