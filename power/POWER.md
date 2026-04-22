@@ -3,7 +3,7 @@ name: "aws-direct-connect-monitor"
 displayName: "AWS Direct Connect Monitor"
 description: "Near real-time monitoring of AWS Direct Connect connections, virtual interfaces, BGP health, optical signal levels, and interactive dashboards with connectivity topology icons."
 keywords: ["direct-connect", "dx", "bgp", "connection", "virtual-interface", "vif", "throughput", "optical", "signal", "bandwidth", "latency", "network", "connectivity", "dashboard", "topology"]
-author: "Certis Group CCoE"
+author: "Davidpcm"
 ---
 
 # AWS Direct Connect Monitor
