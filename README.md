@@ -24,12 +24,20 @@ Built for [Kiro](https://kiro.dev) as a Power with 16 monitoring tools.
 ### Install
 
 ```bash
-git clone https://github.com/certisgroup/aws-direct-connect-monitor.git
+git clone https://github.com/davidpcm/aws-direct-connect-monitor.git
 cd aws-direct-connect-monitor
 uv sync
 ```
 
 ### Add to Kiro
+
+**Option A: Install as Kiro Power (recommended)**
+
+1. Open the **Powers** panel in Kiro
+2. Click **Add Custom Power** → **GitHub Repository**
+3. Enter: `https://github.com/davidpcm/aws-direct-connect-monitor`
+
+**Option B: Manual MCP setup**
 
 Add to your `.kiro/settings/mcp.json`:
 
