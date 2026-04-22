@@ -3,7 +3,7 @@ name: "aws-direct-connect-monitor"
 displayName: "AWS Direct Connect Monitor"
 description: "Near real-time monitoring of AWS Direct Connect connections, virtual interfaces, BGP health, optical signal levels, and interactive dashboards with connectivity topology icons."
 keywords: ["direct-connect", "dx", "bgp", "connection", "virtual-interface", "vif", "throughput", "optical", "signal", "bandwidth", "latency", "network", "connectivity", "dashboard", "topology"]
-author: "Certis Group CCoE"
+author: "Davidpcm"
 ---
 
 # AWS Direct Connect Monitor
@@ -41,7 +41,7 @@ CloudWatch Metrics      →  AWS/DX namespace (5-min intervals)
 ### Installation
 
 ```bash
-git clone https://github.com/certisgroup/aws-direct-connect-monitor.git
+git clone https://github.com/<User Folder>/aws-direct-connect-monitor.git
 cd aws-direct-connect-monitor
 uv sync
 ```
@@ -52,7 +52,7 @@ Then update the `mcp.json` in this power directory — set the `--directory` pat
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `AWS_PROFILE` | SSO profile for the account with DX connections | `certis-tgw-gto` |
+| `AWS_PROFILE` | SSO profile for the account with DX connections | `<AWS Profile>` |
 | `AWS_REGION` | AWS region | `ap-southeast-1` |
 | `DX_ACCOUNT_ID` | Account ID (for dashboard display) | `` |
 
