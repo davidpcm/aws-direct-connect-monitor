@@ -13,7 +13,7 @@
         "DX_ACCOUNT_ID": "",
         "PYTHONDONTWRITEBYTECODE": "1"
       },
-      "disabled": false,
+      "disabled": true,
       "autoApprove": []
     }
   }
