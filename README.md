@@ -115,4 +115,4 @@ The `generate_dx_dashboard` tool creates a self-contained HTML file with:
 
 ## License
 
-Internal — Certis Group CCoE
+Internal — davidpcm
