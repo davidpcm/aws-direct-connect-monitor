@@ -1,11 +1,10 @@
 {
   "mcpServers": {
     "aws-direct-connect-monitor": {
-      "command": "uv",
+      "command": "uvx",
       "args": [
-        "--directory",
-        "CHANGE_ME_TO_YOUR_CLONE_PATH",
-        "run",
+        "--from",
+        "git+https://github.com/davidpcm/aws-direct-connect-monitor.git",
         "aws-direct-connect-monitor"
       ],
       "env": {
