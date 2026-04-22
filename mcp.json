@@ -5,7 +5,7 @@
       "args": [
         "--from",
         "git+https://github.com/davidpcm/aws-direct-connect-monitor.git",
-        "aws-direct-connect-monitor"
+        "aws-direct-connect-monitor.exe"
       ],
       "env": {
         "AWS_PROFILE": "certis-tgw-gto",
