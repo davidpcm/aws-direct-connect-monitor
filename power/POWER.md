@@ -41,7 +41,7 @@ CloudWatch Metrics      →  AWS/DX namespace (5-min intervals)
 ### Installation
 
 ```bash
-git clone https://github.com/certisgroup/aws-direct-connect-monitor.git
+git clone https://github.com/davidpcm/aws-direct-connect-monitor.git
 cd aws-direct-connect-monitor
 uv sync
 ```
